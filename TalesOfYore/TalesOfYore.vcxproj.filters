@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ItemTree">
+      <UniqueIdentifier>{777a7da3-9a88-4d91-9ad2-7b9342313eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeroTree">
+      <UniqueIdentifier>{27b688e8-f65f-49de-89b7-ec73d91ed7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ItemTree">
+      <UniqueIdentifier>{8bc02444-2c4c-470d-98db-933d5fb58859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HeroTree">
+      <UniqueIdentifier>{5d649f5f-6b44-4441-bb51-00bf280deab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapTree">
+      <UniqueIdentifier>{49384ced-b6d7-4320-8f15-0da7df2ac8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MapTree">
+      <UniqueIdentifier>{caf4e55f-ea86-4f6b-afc5-be9148b075d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arms.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Bundle.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Feet.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Hands.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Legs.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Neck.h">
+      <Filter>Header Files\ItemTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files\HeroTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Witch.h">
+      <Filter>Header Files\HeroTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Header Files\MapTree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arms.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Hands.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Legs.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Neck.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Bundle.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files\HeroTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Witch.cpp">
+      <Filter>Source Files\HeroTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Feet.cpp">
+      <Filter>Source Files\ItemTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>Source Files\MapTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
